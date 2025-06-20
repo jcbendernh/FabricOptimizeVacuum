@@ -1,6 +1,6 @@
 # Fabric Notebooks for OPTIMIZE and VACUUM commands
 
-The purpose of this repository is to share the following notebooks so that they can be utilized to OPTIMIZE and VACUUM on a more automated fashion on multiple Lakehouse tables as opposed to manually choosing ... | Maintenance on each individual table in a Lakehouse in the Fabric Lakehouse GUI. 
+This repository provides a set of PySpark notebooks designed to help Microsoft Fabric Data Engineers automate the execution of OPTIMIZE and VACUUM operations across all Lakehouse tables—without the need to manually select each table through the GUI
 
 There are three notebooks in this repository—select the one that aligns best with your specific Lakehouse scenario:
 1. If your Lakehouse does not have any schema enabled, use this notebook for OPTIMIZE and VACUUM:  [Delta Table Maintenance - No Schema - Optimize and Vacuum](notebooks/Delta%20Table%20Maintenance%20-%20No%20Schema%20-%20Optimize%20and%20Vacuum.ipynb)
